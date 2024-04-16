@@ -1,0 +1,146 @@
+/** Start of Header**/
+
+header {
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.logo img {
+    margin-left: 52px;
+    width: 40%;
+}
+
+.Links a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+    transition: transform 0.3s;
+}
+
+.Links a:hover {
+    transform: scale(.9);
+}
+
+/** end of Header**/
+
+/** Start of first section**/
+
+.Intro-text h1 {
+    color: whitesmoke;
+}
+
+.Intro-text p {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.aditional-info h1{
+    color: white;
+}
+
+textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+    border-radius: 20px;
+    font-size: 25px;
+    color: black;
+}
+
+.submit{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 70px;
+    background-color: grey;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* End OF First Section */
+
+/* Start Of Second Section */
+
+.survey {
+    background: rgba(229, 229, 229, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+}
+
+.form-input {
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.Input-Name {
+    gap: 20px;
+    color: #929292;
+    font-size: 25px;
+}
+
+.Input-Email {
+    gap: 20px;
+    color: #929292;
+    font-size: 25px;
+}
+
+.Input-Age {
+    gap: 20px;
+    color: #929292;
+    font-size: 25px;
+}
+
+.Input-Dropdown-Fetures{
+    color: white;
+    font-size: 20px;
+    width: 1015px;
+
+}
+
+
+.Input-Courses{
+    color: #929292;
+    font-size: 25px;
+}
+
+.Input-Dropdown-Fetures-Label{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* End Of Second Section */
+
+/* Start Of Footer */
+
+.Main-Footer{
+    background: rgba(229, 229, 229, 0.12);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+}
+
+.Project-description h1{
+    color: snow;
+}
+
+.Project-description p{
+    color: snow;
+    font-size: 20px;
+}
+
+.components{
+    transition: transform 0.3s;
+}
+
+.components:hover{
+    transform: scale(0.9);
+}
